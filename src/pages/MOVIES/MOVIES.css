@@ -1,0 +1,113 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.mainimage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1520px;
+    height: 800px;
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+.titleimage{
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    top : 200px;
+    left: 50px;
+    z-index: 1;
+}
+
+.seriescontent{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    top : 450px;
+    left: 50px;
+}
+.playbutton{
+    position: absolute;
+    z-index: 1;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    top : 550px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 21.6px;
+}
+
+.moreinfobutton{
+    position: absolute;
+    z-index: 1;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #ffffff46;
+    color: #fff;
+    top : 550px;
+    left: 210px;
+    font-weight: 600;
+    font-size: 18.6px;
+}
+
+.censor{
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    background-color: rgba(51,51,51,.6);
+    border-left: 3px solid #dcdcdc;
+    color: #fff;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    padding: 0.5vw 3.5vw 0.5vw 0.8vw;
+    top : 550px;
+    left: 1420px;
+}
+
+.box{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.secondintermediateMOVIES{ 
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 700px;
+    background:linear-gradient(to bottom,#e2e1e108,#800927,#800927,#800927);
+} 
+
+.secondcontentMOVIES{
+    position: absolute;
+    background-color: #800927;
+    width: 1519px;
+    height: 3085px;
+    z-index: 4;
+    top: 800px;
+    overflow: hidden ;
+}
+
+.card{
+    width: 270px;
+    margin: 0;
+}
+
+.libheading{
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    vertical-align: bottom;
+    color: #fff;
+    font-weight: 500;
+}

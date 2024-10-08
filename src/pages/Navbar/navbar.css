@@ -1,0 +1,61 @@
+.custom-navbar{
+    background-color: rgba(0, 0, 0, 0.411);
+    color :  white !important;
+}
+
+.custom-navbar .navlink {
+    color: white ; /* Add !important to increase specificity */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.searchicon{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.bellicon{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.children{
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+#dropdown-menu-align-responsive-1{
+    background-color:transparent;
+    border: none;
+    color: black;
+}
+
+.netflixlogo{
+    margin-left: 30px;
+}
+
+.custom-dropdown {
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-dropdown .dropdown-item {
+    color:rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+.custom-dropdown .dropdown-divider {
+    border-top: 1px solid rgba(15, 13, 13, 0.291);
+    margin: 8px 0;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.298);
+}
+
+.custom-dropdown .dropdown-item:focus {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    outline: none;
+}

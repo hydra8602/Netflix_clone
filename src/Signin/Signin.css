@@ -1,0 +1,241 @@
+body {
+    background-image: url("https://i.postimg.cc/NM1mD64P/Netflix-signin.jpg");
+    background-repeat: no-repeat;
+    background-size: 149%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.netflix {
+    position: absolute;
+    font-size: 40px;
+    left: 154px;
+    padding: 24px;
+    fill: #ff000d;
+}
+
+.mainarea {
+    display: grid;
+    place-content: center;
+    height: 125vh;
+    background-color: rgba(0, 0, 0, 0.572);
+}
+
+.mainareainner {
+    max-width: 450px;
+    width: 600px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.572);
+    color: aliceblue;
+}
+
+.signinmain {
+    margin-top: 50px;
+    margin-bottom: 28px;
+    margin-left: 75px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.input {
+    width: 300px;
+    height: 50px;
+    margin-left: 75px;
+    background-color: #32313131;
+    color: azure;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.input::placeholder {
+    color: #aeb4ac;
+    background-color: #141616be;
+    box-sizing: border-box;
+    width: 300px;
+    height: 52px;
+    padding: 17px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.signinbutton {
+    width: 300px;
+    height: 45px;
+    margin-left: 75px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #ff000d;
+    color: #f5f5dc;
+    border: none;
+    cursor: pointer;
+}
+
+.signincodebutton {
+    width: 300px;
+    height: 45px;
+    margin-left: 75px;
+    border-radius: 5px;
+    font-weight: 600;
+    font: inherit;
+    background-color: #99999967;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+}
+
+.signinbutton:hover {
+    background-color: #d81821;
+    transition-duration: 0.3s;
+}
+
+.signincodebutton:hover {
+    background-color: #999999ae;
+    transition-duration: 0.3s;
+}
+
+.forgetpassword {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.forgetpassword:hover {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.customcheckbox{
+    margin-left: 72px;
+}
+.signupnow {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.signupnow:hover {
+    text-decoration: underline;
+}
+
+
+.googlerecaptcha {
+    color: #8C8C8C;
+    font-size: 13px;
+    margin-left: 75px;
+}
+
+.learnmorebutton {
+    background: none;
+    border: none;
+    color: #0071EB;
+}
+
+.learnmorebutton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#captchainfo {
+    position: absolute;
+    font-size: 13px;
+    left: 610px;
+    top: 630px;
+}
+
+#captchainfo {
+    color: #0071EB;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    padding: 80px 30px;
+}
+
+
+
+.footerlinks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 170px;
+    padding: 20px 5px;
+}
+.phonenum{
+    position: relative;
+    left: 17%;
+}
+.footercontainer{
+    padding: 20px 5px;
+    line-height: 3;
+}
+.footercontainer a{
+    text-decoration: underline;
+}
+.phonenum button{
+    background: rgba(147, 144, 144, 0.298);
+}
+@media screen and (max-width:800px) {
+    body {
+        background: black;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+    html{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color: black;
+    }
+    .mainarea{
+        background: black;
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer{
+        background-color: rgba(0, 0, 0, 0.767);
+        color: white;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        align-items: center;
+    }
+    .phonenum{
+        position: relative;
+    left: -17%;
+    }
+    .phonenum button{
+        position: relative;
+        left: -30%;
+    }
+    .footerlinks{
+        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        padding:  5px;
+
+    }
+    
+    .footercontainer{
+        padding: 5px;
+        line-height: normal;
+        text-align: left;
+    }
+}
